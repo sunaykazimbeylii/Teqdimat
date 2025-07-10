@@ -41,10 +41,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="description-images mb-4">
+                  <div class="description-images mb-4">
                         <div class="thumbnail-images">
                             <div class="slider-store">
-                                @foreach (TourImage image in Model.Tour.TourImages.Where(ti=>ti.IsPrimary==true))
+                                @foreach (TourImage image in Model.Tour.TourImages.Where(ti => ti.IsPrimary == true))
                                 {
                                     <div>
                                         <img src="~/assets/images/trending/@image.Image" alt="1">
@@ -55,7 +55,7 @@
 
                             </div>
                             <div class="slider-thumbs">
-                                @foreach (TourImage image in Model.Tour.TourImages.Where(ti=>ti.IsPrimary==null))
+                                @foreach (TourImage image in Model.Tour.TourImages.Where(ti => ti.IsPrimary == null))
                                 {
                                     <div>
                                         <img src="~/assets/images/trending/@image.Image" alt="1">
@@ -64,192 +64,10 @@
                                 }
 
                             </div>
+                          
                         </div>
-                    </div>
-
-                    @foreach (var tour in Model.Tour.Destination.Tours)
-                    {
-                        <div class="tour-includes mb-4">
-                            <h5>@tour.TourTranslations.FirstOrDefault().Title</h5>
-                            <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <td><i class="fa fa-clock-o pink mr-1" aria-hidden="true"></i> @tour.Duration</td>
-                                        <td><i class="fa fa-group pink mr-1" aria-hidden="true"></i> Max People: @tour.Available_seats</td>
-                                        <td>
-                                            <i class="fa fa-calendar pink mr-1" aria-hidden="true"></i>
-                                            @tour.Start_Date.ToString("MMM dd") - @tour.End_Date.ToString("MMM dd")
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="fa fa-user pink mr-1" aria-hidden="true"></i> Min Age: 10+</td>
-                                        <td><i class="fa fa-map-signs pink mr-1" aria-hidden="true"></i> Pickup: Airport</td>
-                                        <td><i class="fa fa-file-alt pink mr-1" aria-hidden="true"></i> Language: English</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    }
-                    }
-                    <div class="description mb-2">
-                        <h4>Description</h4>
-                        <p>@Model.Tour.TourTranslations.FirstOrDefault().Description</p>
-                    </div>
-
-                    <div class="description mb-2">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 mb-2 pr-2">
-                                <div class="desc-box">
-                                    <h5 class="mb-1">Departure & Return Location</h5>
-                                    <p class="mb-0">John F.K. International Airport(Google Map)</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 mb-2 pl-2">
-                                <div class="desc-box">
-                                    <h5 class="mb-1">Bedroom</h5>
-                                    <p class="mb-0">4 Bedrooms</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 mb-2 pr-2">
-                                <div class="desc-box">
-                                    <h5 class="mb-1">Departure Time</h5>
-                                    <p class="mb-0">3 Hours Before Flight Time</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 mb-2 pl-2">
-                                <div class="desc-box">
-                                    <h5 class="mb-1">Departure Time</h5>
-                                    <p class="mb-0">3 Hours Before Flight Time</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 mb-2 pr-2">
-                                <div class="desc-box">
-                                    <h5 class="mb-1">Price Includes</h5>
-                                    <ul>
-                                        <li><i class="fa fa-check pink mr-1"></i> Air Fares</li>
-                                        <li><i class="fa fa-check pink mr-1"></i> 3 Nights Hotel Accomodation</li>
-                                        <li><i class="fa fa-check pink mr-1"></i> Tour Guide</li>
-                                        <li><i class="fa fa-check pink mr-1"></i> Entrance Fees</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 mb-2 pl-2">
-                                <div class="desc-box">
-                                    <h5 class="mb-1">Departure & Return Location</h5>
-                                    <ul>
-                                        <li><i class="fa fa-close pink mr-1"></i> Guide Service Fee</li>
-                                        <li><i class="fa fa-close pink mr-1"></i> Driver Service Fee</li>
-                                        <li><i class="fa fa-close pink mr-1"></i> Any Private Expenses</li>
-                                        <li><i class="fa fa-close pink mr-1"></i> Room Service Fees</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="description mb-4">
-                        <h4>What to Expect</h4>
-                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
-                        <p class="mb-0">The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </div>
-
-                    <div class="accrodion-grp faq-accrodion mb-4" data-grp-name="faq-accrodion">
-                        <div class="accrodion active">
-                            <div class="accrodion-title">
-                                <h5 class="mb-0"><span>Day 1</span> - Barcelona - Zaragoza - Madrid</h5>
-                            </div>
-                            <div class="accrodion-content" style="display: block;">
-                                <div class="inner">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, inventore cumque veniam, praesentium velit incidunt rem quas a, quos eos ipsum, reprehenderit voluptatem.</p>
-                                </div><!-- /.inner -->
-                            </div>
-                        </div>
-                        <div class="accrodion ">
-                            <div class="accrodion-title">
-                                <h5 class="mb-0"><span>Day 2</span> - Zurich - Biel/Bienne - Neuchatel - Geneva</h5>
-                            </div>
-                            <div class="accrodion-content" style="display: none;">
-                                <div class="inner">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, inventore cumque veniam, praesentium velit incidunt rem quas a, quos eos ipsum, reprehenderit voluptatem.</p>
-                                </div><!-- /.inner -->
-                            </div>
-                        </div>
-                        <div class="accrodion">
-                            <div class="accrodion-title">
-                                <h5 class="mb-0"><span>Day 3</span> - Enchanting Engelberg</h5>
-                            </div>
-                            <div class="accrodion-content" style="display: none;">
-                                <div class="inner">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, inventore cumque veniam, praesentium velit incidunt rem quas a, quos eos ipsum, reprehenderit voluptatem.</p>
-                                </div><!-- /.inner -->
-                            </div>
-                        </div>
-                        <div class="accrodion ">
-                            <div class="accrodion-title">
-                                <h5 class="mb-0"><span>Day 4</span> - Barcelona - Zaragoza - Madrid</h5>
-                            </div>
-                            <div class="accrodion-content" style="display: none;">
-                                <div class="inner">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, inventore cumque veniam, praesentium velit incidunt rem quas a, quos eos ipsum, reprehenderit voluptatem.</p>
-                                </div><!-- /.inner -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="single-map mb-4">
-                        <h4>Map</h4>
-                        <div class="map">
-                            <div style="width: 100%">
-                                <iframe height="400" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(mangal%20bazar)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- blog comment list -->
-                    <div class="single-comments single-box mb-4">
-                        <h5 class="border-b pb-2 mb-2">Showing 16 verified guest comments</h5>
-                        @foreach (var review in Model.Reviews.Take(3))
-                        {
-                            <div class="comment-box d-flex align-items-start">
-                                <div class="comment-image mt-2">
-                                    <img src="@Url.Content("~/assets/images/trending/" + (review.User.Image ?? "ImagePP.webp"))"
-                                         alt="@review.User.Name"
-                                         style="width:50px; height:50px; border-radius:50%; object-fit:cover;" />
-
-                                </div>
-
-                                <div class="comment-content" style="max-width: 500px; width: 100%;">
-                                    <h4 class="mb-1">@review.User.Name</h4>
-                                    <p class="comment-date">@review.CreatedAt.ToString("MMMM dd, yyyy 'at' hh:mm tt")</p>
-
-                                    <div class="comment-rate">
-                                        <div class="rating mar-right-15">
-                                            @for (int i = 1; i <= review.Rating; i++)
-                                            {
-                                                if (i <= review.Rating)
-                                                {
-                                                    <span class="fa fa-star checked"></span>
-                                                }
-                                                else
-                                                {
-                                                    <span class="fa fa-star"></span>
-                                                }
-                                            }
-                                        </div>
-                                    </div>
-
-                                    <p class="comment">@review.ReviewTranslations.FirstOrDefault().Comment</p>
-
-                                    
-                                </div>
-                            </div>
-                            
-                        }
-                      
-                    </div>
-
-                
-                </div>
+                    </div> 
+               
             </div>
 
             <div class="col-md-4 col-xs-12">
@@ -290,7 +108,7 @@
                                                         }
                                                     </select>
 
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -308,18 +126,20 @@
                                                         }
                                                     </select>
 
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
 
-                                        <div class="col-lg-12">
+                                    <div class="col-lg-12">
                                         <div class="form-group bg-white p-3">
                                             <ul>
                                                 <li class="d-block pb-1">
-                                                    <span id="subtotal">0 adults x 0 </br>
-                                                        0 children x 0</span>
-                                            
+                                                    <span id="subtotal">
+                                                        0 adults x 0 </br>
+                                                        0 children x 0
+                                                    </span>
+
                                                 </li>
                                                 <li class="d-block border-t">
                                                     <div class="pt-1">
@@ -395,43 +215,43 @@
             <div class="row team-slider">
                 @foreach (Tour tour in Model.RelatedTour)
                 {
-                        <div class="col-md-8 col-sm-6 col-xs-12 mb-4">
-                            <div class="trend-item">
-                                <div class="trend-image">
-                                    <img src="~/assets/images/trending/@tour.TourImages.FirstOrDefault(di=>di.IsPrimary==true).Image" alt="image">
-                                    <div class="trend-tags">
-                                        <a href="#"><i class="flaticon-like"></i></a>
+                    <div class="col-md-8 col-sm-6 col-xs-12 mb-4">
+                        <div class="trend-item">
+                            <div class="trend-image">
+                                <img src="~/assets/images/trending/@tour.TourImages.FirstOrDefault(di=>di.IsPrimary==true).Image" alt="image">
+                                <div class="trend-tags">
+                                    <a href="#"><i class="flaticon-like"></i></a>
+                                </div>
+                            </div>
+                            <div class="trend-content-main">
+                                <div class="trend-content">
+                                    <h6 class="font-weight-normal"><i class="fa fa-map-marker-alt"></i>@tour.Destination.DestinationTranslations.FirstOrDefault().Country</h6>
+                                    <h4><a href="#">@tour.TourTranslations.FirstOrDefault().Location</a></h4>
+                                    <div class="rating-main d-flex align-items-center">
+                                        <div class="rating">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <span class="ml-2">38 Reviews</span>
                                     </div>
                                 </div>
-                                <div class="trend-content-main">
-                                    <div class="trend-content">
-                                        <h6 class="font-weight-normal"><i class="fa fa-map-marker-alt"></i>@tour.Destination.DestinationTranslations.FirstOrDefault().Country</h6>
-                                        <h4><a href="#">@tour.TourTranslations.FirstOrDefault().Location</a></h4>
-                                        <div class="rating-main d-flex align-items-center">
-                                            <div class="rating">
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                            </div>
-                                            <span class="ml-2">38 Reviews</span>
-                                        </div>
-                                    </div>
-                                    <div class="trend-last-main">
-                                        <p class="mb-0 trend-para">@tour.TourTranslations.FirstOrDefault().Description</p>
-                                        <div class="trend-last d-flex align-items-center justify-content-between">
-                                            <p class="mb-0 white"><i class="fa fa-clock-o" aria-hidden="true"></i>@tour.Duration</p>
-                                            <div class="trend-price">
-                                                <p class="price white mb-0">From <span>$@tour.Price</span></p>
-                                            </div>
+                                <div class="trend-last-main">
+                                    <p class="mb-0 trend-para">@tour.TourTranslations.FirstOrDefault().Description</p>
+                                    <div class="trend-last d-flex align-items-center justify-content-between">
+                                        <p class="mb-0 white"><i class="fa fa-clock-o" aria-hidden="true"></i>@tour.Duration</p>
+                                        <div class="trend-price">
+                                            <p class="price white mb-0">From <span>$@tour.Price</span></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    }
-                
+                    </div>
+                }
+
 
 
             </div>
@@ -452,9 +272,9 @@
 
         const currencySymbol = '@Html.Raw(Model.CurrencySymbol)';
         const breakdown = `
-                ${adults} adult(s) x ${pricePerAdult.toFixed(2)} ${currencySymbol} = ${adultsTotal.toFixed(2)} ${currencySymbol}<br>
-                ${children} child(ren) x ${pricePerChild.toFixed(2)} ${currencySymbol} = ${childrenTotal.toFixed(2)} ${currencySymbol}
-            `;
+                        ${adults} adult(s) x ${pricePerAdult.toFixed(2)} ${currencySymbol} = ${adultsTotal.toFixed(2)} ${currencySymbol}<br>
+                        ${children} child(ren) x ${pricePerChild.toFixed(2)} ${currencySymbol} = ${childrenTotal.toFixed(2)} ${currencySymbol}
+                    `;
 
         document.getElementById('subtotal').innerHTML = breakdown;
         document.getElementById('totalDisplay').textContent = currencySymbol + total.toFixed(2);

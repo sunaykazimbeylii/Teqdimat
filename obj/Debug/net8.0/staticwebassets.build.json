@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L2X5mz3yKzldejsL0I37SRm/Uj0svyddTHDzFrinQgE=",
+  "Hash": "CQvDA9a2N9QG0/Ba47cD5JsQXGupZ3apUzQ/OL/5DuY=",
   "Source": "TravelFinalProject",
   "BasePath": "_content/TravelFinalProject",
   "Mode": "Default",
@@ -3836,6 +3836,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\01dfcb21-9363-47a1-af12-357f2165a036.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\025cc16d-5eee-4e64-898b-fdf3697966ed.png",
+      "SourceId": "TravelFinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\",
+      "BasePath": "_content/TravelFinalProject",
+      "RelativePath": "assets/images/trending/025cc16d-5eee-4e64-898b-fdf3697966ed.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\025cc16d-5eee-4e64-898b-fdf3697966ed.png"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\0445a2cf-c25f-40ed-9af6-e61cd0fb9112.webp",
       "SourceId": "TravelFinalProject",
       "SourceType": "Discovered",
@@ -3872,6 +3891,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\062445a6-f3b3-4bb4-b63f-52e43c8c6f29.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\08c402ba-0165-42dd-b534-734eb9c78e0c.jpeg",
+      "SourceId": "TravelFinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\",
+      "BasePath": "_content/TravelFinalProject",
+      "RelativePath": "assets/images/trending/08c402ba-0165-42dd-b534-734eb9c78e0c.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\08c402ba-0165-42dd-b534-734eb9c78e0c.jpeg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\0d6aeab8-fe2d-458e-b8ff-9dc071fdc5f2.jpg",
@@ -4197,6 +4235,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\4dbe2922-4be9-4f24-8c3a-0ad992f03fb5.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\517399d4-208a-4f1a-bc85-2a038d84392c.jpeg",
+      "SourceId": "TravelFinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\",
+      "BasePath": "_content/TravelFinalProject",
+      "RelativePath": "assets/images/trending/517399d4-208a-4f1a-bc85-2a038d84392c.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\517399d4-208a-4f1a-bc85-2a038d84392c.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\5426d0cd-faad-487a-bca3-bc00113977c8.jpeg",
       "SourceId": "TravelFinalProject",
       "SourceType": "Discovered",
@@ -4406,6 +4463,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\70b9252e-6145-4e3f-aaff-f2a904a97406.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\72212729-7adb-466a-b536-8142139df7fc.jpeg",
+      "SourceId": "TravelFinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\",
+      "BasePath": "_content/TravelFinalProject",
+      "RelativePath": "assets/images/trending/72212729-7adb-466a-b536-8142139df7fc.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\72212729-7adb-466a-b536-8142139df7fc.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\739ba78c-a210-456b-a041-0889bc824081.jpg",
       "SourceId": "TravelFinalProject",
       "SourceType": "Discovered",
@@ -4594,6 +4670,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\92c30518-9f04-44dd-8272-02559f3dbe6d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\9e84ffe7-e221-4928-aaa5-75a283f18ea7.png",
+      "SourceId": "TravelFinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\",
+      "BasePath": "_content/TravelFinalProject",
+      "RelativePath": "assets/images/trending/9e84ffe7-e221-4928-aaa5-75a283f18ea7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\9e84ffe7-e221-4928-aaa5-75a283f18ea7.png"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\9eb8c1fb-8981-4f25-a5fe-fa34269e3424.jpg",
@@ -5012,6 +5107,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\f5def82a-0929-411c-bdb0-1010b9350358.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\fab3d51a-259f-4818-8fd2-f6164d9c434e.jpeg",
+      "SourceId": "TravelFinalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\",
+      "BasePath": "_content/TravelFinalProject",
+      "RelativePath": "assets/images/trending/fab3d51a-259f-4818-8fd2-f6164d9c434e.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\trending\\fab3d51a-259f-4818-8fd2-f6164d9c434e.jpeg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\fd78d0e3-5251-4783-a44c-444cf9b11ea4.jpg",

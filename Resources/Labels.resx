@@ -191,6 +191,9 @@ Travel has helped us to understand the meaning of life and it has helped us beco
   <data name="City" xml:space="preserve">
     <value>City</value>
   </data>
+  <data name="Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
   <data name="CompetitivePricing" xml:space="preserve">
     <value>Competitive Pricing</value>
   </data>
@@ -208,6 +211,9 @@ Travel has helped us to understand the meaning of life and it has helped us beco
   </data>
   <data name="CPDesc" xml:space="preserve">
     <value>With 500+ suppliers and the purchasing power of 300 million members</value>
+  </data>
+  <data name="CustomerService" xml:space="preserve">
+    <value>Customer Service</value>
   </data>
   <data name="Deal" xml:space="preserve">
     <value>Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</value>
@@ -230,6 +236,9 @@ Travel has helped us to understand the meaning of life and it has helped us beco
   <data name="DealTitle" xml:space="preserve">
     <value>Today's Top Deal</value>
   </data>
+  <data name="DeliveryInformation" xml:space="preserve">
+    <value>Delivery Information</value>
+  </data>
   <data name="DepartDate" xml:space="preserve">
     <value>Depart Date</value>
   </data>
@@ -244,6 +253,12 @@ Travel has helped us to understand the meaning of life and it has helped us beco
   </data>
   <data name="Discover" xml:space="preserve">
     <value>Discover</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
   </data>
   <data name="FindAPlaces" xml:space="preserve">
     <value>Find a places</value>
@@ -269,11 +284,26 @@ Travel has helped us to understand the meaning of life and it has helped us beco
   <data name="Name" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="NewDes" xml:space="preserve">
+    <value>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Newsletter</value>
+  </data>
   <data name="NPassword" xml:space="preserve">
     <value>New Password</value>
   </data>
+  <data name="OurService" xml:space="preserve">
+    <value>Ou rService</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
   <data name="Phone" xml:space="preserve">
     <value>Phone Number</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Profile</value>
@@ -283,6 +313,9 @@ Travel has helped us to understand the meaning of life and it has helped us beco
   </data>
   <data name="ReturnDate" xml:space="preserve">
     <value>Return Date</value>
+  </data>
+  <data name="ReturnPolicy" xml:space="preserve">
+    <value>Return Policy</value>
   </data>
   <data name="reviewDescription" xml:space="preserve">
     <value>Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.</value>
@@ -295,6 +328,12 @@ Travel has helped us to understand the meaning of life and it has helped us beco
   </data>
   <data name="SelectTour" xml:space="preserve">
     <value>Select Tour</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value>Site Map</value>
   </data>
   <data name="Summer" xml:space="preserve">
     <value>SUMMER SPECIAL UPTO 25% OFF</value>
@@ -311,6 +350,9 @@ The nights of Thailand</value>
   </data>
   <data name="Surname" xml:space="preserve">
     <value>Surname</value>
+  </data>
+  <data name="Terms&amp;Conditions" xml:space="preserve">
+    <value>Terms &amp; Conditions</value>
   </data>
   <data name="TotalDuration" xml:space="preserve">
     <value>Total Duration</value>

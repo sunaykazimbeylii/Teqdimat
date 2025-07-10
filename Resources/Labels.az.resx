@@ -189,6 +189,9 @@
   <data name="City" xml:space="preserve">
     <value>Şəhər</value>
   </data>
+  <data name="Company" xml:space="preserve">
+    <value>Şirkət</value>
+  </data>
   <data name="CompetitivePricing" xml:space="preserve">
     <value>Əlverişli Qiymət Təklifləri</value>
   </data>
@@ -206,6 +209,9 @@
   </data>
   <data name="CPDesc" xml:space="preserve">
     <value>500-dən çox partnyor və 300 milyon üzvün alış gücü ilə – sizə ən yaxşı qiymətləri təqdim edirik.</value>
+  </data>
+  <data name="CustomerService" xml:space="preserve">
+    <value>Müştəri Xidməti</value>
   </data>
   <data name="Deal1" xml:space="preserve">
     <value>Otelərə böyük endirimlər!</value>
@@ -225,6 +231,9 @@
   <data name="DealTitle" xml:space="preserve">
     <value>Bugünün Ən Yaxşı Təklifi</value>
   </data>
+  <data name="DeliveryInformation" xml:space="preserve">
+    <value>Çatdırılma məlumatları</value>
+  </data>
   <data name="DepartDate" xml:space="preserve">
     <value>Gediş Tarixi</value>
   </data>
@@ -239,6 +248,12 @@
   </data>
   <data name="Discover" xml:space="preserve">
     <value>Kəşf et</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Tez-tez Verilən Suallar</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Rəy</value>
   </data>
   <data name="FindAPlaces" xml:space="preserve">
     <value>Yerləri kəşf et</value>
@@ -264,11 +279,26 @@
   <data name="Name" xml:space="preserve">
     <value>Ad</value>
   </data>
+  <data name="NewDes" xml:space="preserve">
+    <value>Yeni şablon və ya yeniləmə yayımladığımız zaman xəbərdar olmaq istəyirsiniz? Sadəcə qeydiyyatdan keçin və biz sizə e-poçt vasitəsilə bildiriş göndərəcəyik.</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Xəbər Bülleteni</value>
+  </data>
   <data name="NPassword" xml:space="preserve">
     <value>Yeni Parol</value>
   </data>
+  <data name="OurService" xml:space="preserve">
+    <value>Xidmətimiz</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Ödəniş</value>
+  </data>
   <data name="Phone" xml:space="preserve">
     <value>Telefon nömrəsi</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Məxfilik Siyasəti</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Profilim</value>
@@ -278,6 +308,9 @@
   </data>
   <data name="ReturnDate" xml:space="preserve">
     <value>Qayıdış tarixi</value>
+  </data>
+  <data name="ReturnPolicy" xml:space="preserve">
+    <value>Qaytarma Siyasəti</value>
   </data>
   <data name="reviewDescription" xml:space="preserve">
     <value>Səyahət bizə həyatın mənasını anlamağa kömək edib və bizi daha yaxşı insanlara çevirib. Hər dəfə səyahət etdikdə, dünyaya yeni gözlərlə baxırıq.</value>
@@ -290,6 +323,15 @@
   </data>
   <data name="SelectTour" xml:space="preserve">
     <value>Tur Seç</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Xidmətlərimiz</value>
+  </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value>Sayt Xəritəsi</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
   </data>
   <data name="Summer" xml:space="preserve">
     <value>YAY XÜSUSİ ENDİRİMİ 25%-DƏK</value>
@@ -306,6 +348,9 @@ Tailandın sehrli gecələrində</value>
   </data>
   <data name="Surname" xml:space="preserve">
     <value>Soyad</value>
+  </data>
+  <data name="Terms&amp;Conditions" xml:space="preserve">
+    <value>Şərtlər və Qaydalar</value>
   </data>
   <data name="TotalDuration" xml:space="preserve">
     <value>Ümumi müddət</value>

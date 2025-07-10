@@ -279,6 +279,15 @@ namespace TravelFinalProject.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Company.
+        /// </summary>
+        public static string Company {
+            get {
+                return ResourceManager.GetString("Company", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Competitive Pricing.
         /// </summary>
         public static string CompetitivePricing {
@@ -329,6 +338,15 @@ namespace TravelFinalProject.Resources {
         public static string CPDesc {
             get {
                 return ResourceManager.GetString("CPDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Customer Service.
+        /// </summary>
+        public static string CustomerService {
+            get {
+                return ResourceManager.GetString("CustomerService", resourceCulture);
             }
         }
         
@@ -396,6 +414,15 @@ namespace TravelFinalProject.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Delivery Information.
+        /// </summary>
+        public static string DeliveryInformation {
+            get {
+                return ResourceManager.GetString("DeliveryInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Depart Date.
         /// </summary>
         public static string DepartDate {
@@ -437,6 +464,24 @@ namespace TravelFinalProject.Resources {
         public static string Discover {
             get {
                 return ResourceManager.GetString("Discover", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FAQ.
+        /// </summary>
+        public static string FAQ {
+            get {
+                return ResourceManager.GetString("FAQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Feedback.
+        /// </summary>
+        public static string Feedback {
+            get {
+                return ResourceManager.GetString("Feedback", resourceCulture);
             }
         }
         
@@ -513,6 +558,24 @@ namespace TravelFinalProject.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Want to be notified when we launch a new template or an udpate. Just sign up and we&apos;ll send you a notification by email.
+        /// </summary>
+        public static string NewDes {
+            get {
+                return ResourceManager.GetString("NewDes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Newsletter.
+        /// </summary>
+        public static string Newsletter {
+            get {
+                return ResourceManager.GetString("Newsletter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to New Password.
         /// </summary>
         public static string NPassword {
@@ -522,11 +585,38 @@ namespace TravelFinalProject.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ou rService.
+        /// </summary>
+        public static string OurService {
+            get {
+                return ResourceManager.GetString("OurService", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment.
+        /// </summary>
+        public static string Payment {
+            get {
+                return ResourceManager.GetString("Payment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Phone Number.
         /// </summary>
         public static string Phone {
             get {
                 return ResourceManager.GetString("Phone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Privacy Policy.
+        /// </summary>
+        public static string PrivacyPolicy {
+            get {
+                return ResourceManager.GetString("PrivacyPolicy", resourceCulture);
             }
         }
         
@@ -554,6 +644,15 @@ namespace TravelFinalProject.Resources {
         public static string ReturnDate {
             get {
                 return ResourceManager.GetString("ReturnDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Return Policy.
+        /// </summary>
+        public static string ReturnPolicy {
+            get {
+                return ResourceManager.GetString("ReturnPolicy", resourceCulture);
             }
         }
         
@@ -590,6 +689,24 @@ namespace TravelFinalProject.Resources {
         public static string SelectTour {
             get {
                 return ResourceManager.GetString("SelectTour", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Services.
+        /// </summary>
+        public static string Services {
+            get {
+                return ResourceManager.GetString("Services", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Site Map.
+        /// </summary>
+        public static string SiteMap {
+            get {
+                return ResourceManager.GetString("SiteMap", resourceCulture);
             }
         }
         
@@ -636,6 +753,15 @@ namespace TravelFinalProject.Resources {
         public static string Surname {
             get {
                 return ResourceManager.GetString("Surname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terms &amp; Conditions.
+        /// </summary>
+        public static string Terms_Conditions {
+            get {
+                return ResourceManager.GetString("Terms&Conditions", resourceCulture);
             }
         }
         
