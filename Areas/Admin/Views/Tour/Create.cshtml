@@ -1,0 +1,160 @@
+﻿@using TravelFinalProject.Models
+@using TravelFinalProject.ViewModels.TourVM
+@model CreateTourVM
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="dashboard-content">
+        <div class="add-listing">
+            <div class="listing-main">
+                <div class="addlist-inner mb-3">
+                    <div class="addlist-title">
+                        <h4 class="m-0"><i class="fa fa-user pr-2"></i>Tour Create</h4>
+                    </div>
+                    <div>
+                        @Html.Raw(@TempData["FileWarning"])</div>
+                    <div class="addlist-content bg-white">
+                        <form method="post" enctype="multipart/form-data">
+                            @Html.AntiForgeryToken()
+
+                            <div asp-validation-summary="All" class="text-danger"></div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-xs-12">
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Title" class="form-label">Title</label>
+                                            <input asp-for="Title" class="form-control" placeholder="Title" />
+                                            <span asp-validation-for="Title" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-xs-12">
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Description" class="form-label">Description</label>
+                                            <input asp-for="Description" class="form-control" placeholder="Description" />
+                                            <span asp-validation-for="Description" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-xs-12">
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="DestinationId" class="form-label">Destination</label>
+                                            <select asp-for="DestinationId" class="form-control niceSelect">
+                                                <option selected disabled>Choose Destination</option>
+                                                @foreach (var dt in Model.DestinationTranslations)
+                                                {
+                                                    <option value="@dt.DestinationId">@dt.Name</option>
+
+                                                }
+                                            </select>
+                                            <span asp-validation-for="DestinationId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-xs-12">
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Price" class="form-label">Price</label>
+                                            <input asp-for="Price" class="form-control" placeholder="Price" />
+                                            <span asp-validation-for="Price" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <div class="row">
+
+                                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                                <div class="input-box">
+                                                    <label asp-for="Duration" class="form-label">Duration</label>
+                                                    <input asp-for="Duration" class="form-control" placeholder="Duration" />
+                                                    <span asp-validation-for="Duration" class="text-danger"></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                                <div class="input-box">
+                                                    <label asp-for="Start_Date" class="form-label">Start Date</label>
+                                                    <input asp-for="Start_Date" class="form-control" type="date" />
+                                                    <span asp-validation-for="Start_Date" class="text-danger"></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                                <div class="input-box">
+                                                    <label asp-for="End_Date" class="form-label">End Date</label>
+                                                    <input asp-for="End_Date" class="form-control" type="date" />
+                                                    <span asp-validation-for="End_Date" class="text-danger"></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                                <div class="input-box">
+                                                    <label asp-for="Location" class="form-label">Location</label>
+                                                    <input asp-for="Location" class="form-control" placeholder="Location" />
+                                                    <span asp-validation-for="Location" class="text-danger"></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                                <div class="input-box">
+                                                    <label asp-for="Available_seats" class="form-label">Available Seats</label>
+                                                    <input asp-for="Available_seats" class="form-control" accept="image/*" placeholder="Available Seats" />
+                                                    <span asp-validation-for="Available_seats" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                                <div class="form-group mb-0">
+                                                    <label>Photo</label>
+                                                    <div class="input-box">
+                                                        <label class="upload-file mb-0">
+                                                           
+                                                            <input asp-for="Photo" class="form-control" accept="image/*" type="file" />
+                                                            <span asp-validation-for="Photo" class="text-danger"></span>
+                                                            <i class="far fa-image"></i>
+                                                            <span>Click here or drop file to upload</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                  
+                                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                                <div class="form-group mb-0">
+                                                    <label> Additional Photos</label>
+                                                    <div class="input-box">
+                                                        <label class="upload-file mb-0">
+                                                            <input asp-for="AdditionalPhotos" class="form-control" accept="image/*"  />
+                                                            <span asp-validation-for="AdditionalPhotos" class="text-danger"></span>
+                                                            <i class="far fa-image"></i>
+                                                            <span>Click here or drop file to upload</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-xs-12">
+                                                <div class="input-box">
+                                                    <label asp-for="LangCode" class="form-label">LangCode</label>
+                                                    <input asp-for="LangCode" class="form-control" placeholder="LangCode" />
+                                                    <span asp-validation-for="LangCode" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

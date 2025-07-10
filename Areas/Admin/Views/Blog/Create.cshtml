@@ -1,0 +1,66 @@
+﻿@using TravelFinalProject.Models
+@using TravelFinalProject.ViewModels.BlogVM
+@model CreateBlogVM
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="dashboard-content">
+        <div class="add-listing">
+            <div class="listing-main">
+                <div class="addlist-inner mb-3">
+                    <div class="addlist-title">
+                        <h4 class="m-0"><i class="fa fa-user pr-2"></i>Destination Create</h4>
+                    </div>
+                    <div class="addlist-content bg-white">
+                        <form method="post" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-6 col-xs-12">
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Photo" class="form-label">Photo</label>
+                                            <input asp-for="Photo" class="form-control" />
+                                            <span asp-validation-for="Photo" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Title" class="form-label">Title</label>
+                                            <input asp-for="Title" class="form-control" placeholder="Title" />
+                                            <span asp-validation-for="Title" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Content" class="form-label">Content</label>
+                                            <textarea asp-for="Content" class="form-control" placeholder="Content" style="resize: vertical; min-height: 100px;"></textarea>
+                                            <span asp-validation-for="Content" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="LangCode" class="form-label">LangCode</label>
+                                            <input asp-for="LangCode" class="form-control" placeholder="Langcode" />
+                                            <span asp-validation-for="LangCode" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="PublishedDate" class="form-label">Published Date</label>
+                                            <input asp-for="PublishedDate" type="date" class="form-control" />
+                                            <span asp-validation-for="PublishedDate" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                
+                                        <div class="form-group">
+                                            <label asp-for="IsPopular">Is Popular?</label>
+                                            <input asp-for="IsPopular" type="checkbox" />
+                                        </div>
+                                    </div>
+                                </div>
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

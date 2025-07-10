@@ -1,0 +1,93 @@
+﻿@using TravelFinalProject.Interfaces
+@using TravelFinalProject.Models
+@using TravelFinalProject.Resources
+@using TravelFinalProject.Utilities.Enums
+@using TravelFinalProject.ViewModels
+@model DestinationListVM
+@inject ICurrencyService CurrencyService
+
+<!-- BreadCrumb Starts -->
+<section class="breadcrumb-main pb-0" style="background-image: url(images/bg/bg8.jpg);">
+    <div class="breadcrumb-outer pt-10">
+        <div class="container">
+            <div class="breadcrumb-content d-md-flex align-items-center pt-10">
+                <h2 class="mb-0">@Labels.Destinations</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">@Labels.Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">@Labels.Destinations</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="dot-overlay"></div>
+</section>
+<!-- BreadCrumb Ends -->
+<!-- Destination List Starts -->
+<section class="blog destination-b pb-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 mb-4">
+                <div class="trend-box">
+                    <div class="list-results d-flex align-items-center justify-content-between">
+                        <div class="list-results-sort">
+                            <p class="m-0">Showing @Model.PaginatedDestinations.Items.Count of @Model.PaginatedDestinations.TotalPage pages</p>
+                        </div>
+                    </div>
+                    @foreach (var d in Model.PaginatedDestinations.Items)
+                    {
+                        <div class="blog-full d-flex justify-content-around mb-4">
+                            <div class="row w-100">
+                                <div class="col-lg-5 col-md-4 col-xs-12 blog-height">
+                                    <div class="blog-image">
+                                        <a href="@Url.Action("DestinationDetails", "Home", new { id = d.Id })"
+                                           style="background-image: url('@Url.Content("~/assets/images/trending/" + d.MainImage)');">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-8 col-xs-12">
+                                    <div class="blog-content p-0">
+                                        <h4 class="mb-1">
+                                            <a href="@Url.Action("Details", "Destination", new { id = d.Id })">@d.Name</a>
+                                        </h4>
+                                        <p class="mb-2 pink"><i class="fa fa-map-marker mr-1"></i> @d.Country</p>
+                                        <p class="mb-2 pink"><i class="fa fa-map-marker mr-1"></i> @d.City</p>
+                                        <p class="mb-2 pink"><i class="fa fa-map-marker mr-1"></i> @d.Address</p>
+                                        <p class="mb-2 border-t pt-2">
+                                            @(d.Description?.Length > 150 ? d.Description.Substring(0, 150) + "..." : d.Description)
+                                        </p>
+                                        <div class="deal-price">
+                                            <p class="price mb-0">
+                                                From <span>@CurrencyService.GetSymbol(d.CurrencyCode) @d.Price</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    <nav aria-label="Page navigation" style="margin: 0px auto;">
+                        <ul class="pagination">
+                            <li class="page-item @(Model.PaginatedDestinations.CurrentPage <= 1 ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-page="@(Model.PaginatedDestinations.CurrentPage - 1)">&laquo;</a>
+                            </li>
+                            @for (int i = 1; i <= Model.PaginatedDestinations.TotalPage; i++)
+                            {
+                                <li class="page-item @(Model.PaginatedDestinations.CurrentPage == i ? "active" : "")">
+                                    <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+                                </li>
+                            }
+                            <li class="page-item @(Model.PaginatedDestinations.CurrentPage >= Model.PaginatedDestinations.TotalPage ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-page="@(Model.PaginatedDestinations.CurrentPage + 1)">&raquo;</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Destination List Ends -->

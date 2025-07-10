@@ -1,0 +1,1317 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\css\\Custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\Custom.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\css\\icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icons.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\css\\plugin.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Simple-Line-Iconsb26c.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Iconsb26c.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Simple-Line-Iconsb26c.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Iconsb26c.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Simple-Line-Iconsb26c.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Iconsb26c.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Simple-Line-Iconsb26c.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Iconsb26c.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\Simple-Line-Iconsb26c.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Iconsb26c.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\assets\\fonts\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\iconsmind.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\iconsmind.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\iconsmind.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\iconsmind.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\iconsmind.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\iconsmind.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\iconsmind.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\iconsmind.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\ionicons28b528b5.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b528b5.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\ionicons28b528b5.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b528b5.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\ionicons28b528b5.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b528b5.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\ionicons28b528b5.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b528b5.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\fonts\\line-icons.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\404-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\404-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\404.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\404.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\about.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\about.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\bg\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\bg\\bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\bg\\bg3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\bg\\bg4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\bg\\bg5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\bg\\bg6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\bg\\bg7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\bg\\bg8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\bg8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\30c043f3-e477-4c0c-87c5-219e12bd2e5e.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\30c043f3-e477-4c0c-87c5-219e12bd2e5e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\67dd9818-5782-4157-8095-7c02dab04a12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\67dd9818-5782-4157-8095-7c02dab04a12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\79a4b7f1-bc23-4056-bcfd-83ea12a31a39.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\79a4b7f1-bc23-4056-bcfd-83ea12a31a39.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\a27b5f81-5a06-4302-bedb-02b6545c0c6f.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\a27b5f81-5a06-4302-bedb-02b6545c0c6f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\blog9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\blog\\dcdf4eb7-4bd5-44ab-b6bf-877e0740c91b.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\dcdf4eb7-4bd5-44ab-b6bf-877e0740c91b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\border.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\border.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\cars\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\cars\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\cars\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\cars\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\cars\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\cars\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\cars\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\cars\\car.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cars\\car.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\clients\\logo-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\logo-01.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\clients\\logo-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\logo-02.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\clients\\logo-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\logo-03.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\clients\\logo-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\logo-04.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\coming-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\coming-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\coming.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\coming.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\delivery.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\delivery.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\destination\\destination9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\destination\\destination9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\dot-overlay.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dot-overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\dummy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dummy.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight_grid_2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight_grid_2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight_grid_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight_grid_3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight_grid_4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight_grid_4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flight_grid_5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flight_grid_5.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\flights\\flightbg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flights\\flightbg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\footer-bg1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\footer-bg1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\insta\\ins-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta\\ins-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\new-deal\\deal9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\new-deal\\deal9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\assets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\reviewer\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\reviewer\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\reviewer\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\reviewer\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\reviewer\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\reviewer\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\reviewer\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\reviewer\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\reviewer\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\reviewer\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\reviewer\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\reviewer\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\grid1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\grid1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\grid2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\grid2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\grid3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\grid3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\grid4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\grid4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\grid5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\grid5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\rooms\\list9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rooms\\list9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\search-angle.png",
+      "PackagePath": "staticwebassets\\assets\\images\\search-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\shop\\shop9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\shop9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\4baf93ab-89dc-4906-baa6-089a710193fb.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\4baf93ab-89dc-4906-baa6-089a710193fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\6791ab99-ba9d-4df7-b041-75de4ebe64ba.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\6791ab99-ba9d-4df7-b041-75de4ebe64ba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\82a14de2-cc9b-4e6f-a228-295cb2c4e0a0.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\82a14de2-cc9b-4e6f-a228-295cb2c4e0a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\83680950-91f6-4d1c-bebe-57e85fd32785.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\83680950-91f6-4d1c-bebe-57e85fd32785.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\ec670c91-a8fb-408d-99e1-0e55901e3d3b.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\ec670c91-a8fb-408d-99e1-0e55901e3d3b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\slider\\slide.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\slide.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\streetmap.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\streetmap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\team\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\team\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\team\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\team\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\team\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\testi-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testi-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\testimonial.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\testimonial\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\testimonial\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\testimonial\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\tour.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\tour.mp4"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trains\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trains\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trains\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trains\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trains\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trains\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trains\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trains\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trains\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trains\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trains\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trains\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trains\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trains\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\01dfcb21-9363-47a1-af12-357f2165a036.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\01dfcb21-9363-47a1-af12-357f2165a036.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\0445a2cf-c25f-40ed-9af6-e61cd0fb9112.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\0445a2cf-c25f-40ed-9af6-e61cd0fb9112.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\062445a6-f3b3-4bb4-b63f-52e43c8c6f29.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\062445a6-f3b3-4bb4-b63f-52e43c8c6f29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\0d6aeab8-fe2d-458e-b8ff-9dc071fdc5f2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\0d6aeab8-fe2d-458e-b8ff-9dc071fdc5f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\0e7cb108-5428-4a30-96ed-8a5858b1c931.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\0e7cb108-5428-4a30-96ed-8a5858b1c931.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\115b20a3-99d8-42ef-a8eb-75e4a711ade2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\115b20a3-99d8-42ef-a8eb-75e4a711ade2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\1174a84a-440e-4e04-b105-2c38259326b6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\1174a84a-440e-4e04-b105-2c38259326b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\152ab6be-b562-4c82-af5e-d8a9d45ea1e4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\152ab6be-b562-4c82-af5e-d8a9d45ea1e4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\20c70b6d-8149-445e-ad70-fe5a197fb8ca.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\20c70b6d-8149-445e-ad70-fe5a197fb8ca.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\25933c5e-835c-4706-8d95-27e6b11139ef.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\25933c5e-835c-4706-8d95-27e6b11139ef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\2b0ee497-e0a4-453d-a47c-70c37b1e62ba.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\2b0ee497-e0a4-453d-a47c-70c37b1e62ba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\2c39c3af-f191-4126-ae25-096e72ead61d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\2c39c3af-f191-4126-ae25-096e72ead61d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\2d0a6e74-de1e-467b-a323-23e6a16a39a8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\2d0a6e74-de1e-467b-a323-23e6a16a39a8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\30c350d8-b87b-4419-939b-80a65ac18d90.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\30c350d8-b87b-4419-939b-80a65ac18d90.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\393972f3-f9a4-4c68-af91-f634d5f12bd7.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\393972f3-f9a4-4c68-af91-f634d5f12bd7.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\3d550f2a-ea7f-4218-9dc8-28734c28853d.png",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\3d550f2a-ea7f-4218-9dc8-28734c28853d.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\411e8903-4c1d-4138-aeb1-966b17151cf1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\411e8903-4c1d-4138-aeb1-966b17151cf1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\442c1991-964e-442d-a2b5-55004d6fe152.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\442c1991-964e-442d-a2b5-55004d6fe152.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\4d2bf006-2f38-449c-b0bf-5622676c41ae.png",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\4d2bf006-2f38-449c-b0bf-5622676c41ae.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\4dbe2922-4be9-4f24-8c3a-0ad992f03fb5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\4dbe2922-4be9-4f24-8c3a-0ad992f03fb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\5426d0cd-faad-487a-bca3-bc00113977c8.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\5426d0cd-faad-487a-bca3-bc00113977c8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\543af033-9a52-4f8f-8d0e-ed03926a55ef.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\543af033-9a52-4f8f-8d0e-ed03926a55ef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\54d42ab0-6cac-47d0-8e62-ad68931aee8f.png",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\54d42ab0-6cac-47d0-8e62-ad68931aee8f.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\55523f5d-c866-4b6c-9fa0-16948f02be33.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\55523f5d-c866-4b6c-9fa0-16948f02be33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\60c3e6e7-7bd3-434c-92f5-11934333f423.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\60c3e6e7-7bd3-434c-92f5-11934333f423.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\61ce206b-1884-4064-b2cf-9bb4e3622342.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\61ce206b-1884-4064-b2cf-9bb4e3622342.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\666681f4-c167-4994-812c-14e23922c3a0.png",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\666681f4-c167-4994-812c-14e23922c3a0.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\6942b317-4288-46a3-833b-ee72bfa6de83.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\6942b317-4288-46a3-833b-ee72bfa6de83.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\69625735-1618-43e9-bb42-baba66b1e77a.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\69625735-1618-43e9-bb42-baba66b1e77a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\6b3e014e-d8e9-4432-b992-b6d69bc4acb1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\6b3e014e-d8e9-4432-b992-b6d69bc4acb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\70b9252e-6145-4e3f-aaff-f2a904a97406.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\70b9252e-6145-4e3f-aaff-f2a904a97406.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\739ba78c-a210-456b-a041-0889bc824081.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\739ba78c-a210-456b-a041-0889bc824081.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\766cced8-1cdd-41d0-aa78-db45de1f68cd.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\766cced8-1cdd-41d0-aa78-db45de1f68cd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\7f3cda3d-4cf3-4a85-9ae5-b691d624b0f8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\7f3cda3d-4cf3-4a85-9ae5-b691d624b0f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\831af033-b5b5-4983-9fda-3d76253beafb.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\831af033-b5b5-4983-9fda-3d76253beafb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\85e79427-7554-456c-8630-2b1d029a8469.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\85e79427-7554-456c-8630-2b1d029a8469.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\8b117f01-89ad-44be-80b3-c3a4ff07c72a.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\8b117f01-89ad-44be-80b3-c3a4ff07c72a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\8beca22e-f8c5-46f3-bb1c-bb7caea8c28a.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\8beca22e-f8c5-46f3-bb1c-bb7caea8c28a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\8c6e5b67-1118-4012-8315-482ed0245a8d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\8c6e5b67-1118-4012-8315-482ed0245a8d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\8e41433a-384e-4381-9f5a-e28b8ec16339.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\8e41433a-384e-4381-9f5a-e28b8ec16339.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\92c30518-9f04-44dd-8272-02559f3dbe6d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\92c30518-9f04-44dd-8272-02559f3dbe6d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\9eb8c1fb-8981-4f25-a5fe-fa34269e3424.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\9eb8c1fb-8981-4f25-a5fe-fa34269e3424.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\ImagePP.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\ImagePP.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\Istanbul.png",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\Istanbul.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\Italy.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\Italy.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\a323af4d-d059-4a2f-a8e8-755fa9368d2e.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\a323af4d-d059-4a2f-a8e8-755fa9368d2e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\ac5df855-cc6d-44ff-87c2-1ac9fe7e4745.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\ac5df855-cc6d-44ff-87c2-1ac9fe7e4745.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\afe1d60c-91e9-4769-b237-f5a8178a4eaa.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\afe1d60c-91e9-4769-b237-f5a8178a4eaa.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\almanya.png",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\almanya.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\b2e890ca-22b4-4c01-afe5-186f33aef952.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\b2e890ca-22b4-4c01-afe5-186f33aef952.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\b370060b-f4c0-471b-802d-106d7d71e5fe.png",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\b370060b-f4c0-471b-802d-106d7d71e5fe.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\b393736b-7a4b-40da-ad6c-152e4107be15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\b393736b-7a4b-40da-ad6c-152e4107be15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\bafea1cb-f1dd-45b6-a4d7-edd7db17e88f.png",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\bafea1cb-f1dd-45b6-a4d7-edd7db17e88f.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\bdee013f-4d96-450a-9621-bdf51765d647.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\bdee013f-4d96-450a-9621-bdf51765d647.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\bfc0c179-4cc5-482b-b2e1-dc6b48dea0ae.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\bfc0c179-4cc5-482b-b2e1-dc6b48dea0ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\bfde08cd-3ad7-4e21-93c4-0877563e2b13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\bfde08cd-3ad7-4e21-93c4-0877563e2b13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\c137cec7-fc2f-4727-bf8c-16e462fae675.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\c137cec7-fc2f-4727-bf8c-16e462fae675.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\c591793d-c005-420c-87f9-9daaa30b9998.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\c591793d-c005-420c-87f9-9daaa30b9998.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\c751638d-6942-4278-af70-159171380310.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\c751638d-6942-4278-af70-159171380310.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\cba9f9f7-b01b-404c-b468-827a5baac322.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\cba9f9f7-b01b-404c-b468-827a5baac322.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\d226a8d9-aa81-4961-a36e-60534624c076.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\d226a8d9-aa81-4961-a36e-60534624c076.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\d5e0c232-7db4-4c57-b7bc-f365423675f1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\d5e0c232-7db4-4c57-b7bc-f365423675f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\d675a695-16d3-49b3-a58f-919909f00836.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\d675a695-16d3-49b3-a58f-919909f00836.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\e08ca844-5c1e-4f41-8573-654dedfec7fa.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\e08ca844-5c1e-4f41-8573-654dedfec7fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\ea6b4af8-781a-4910-a07d-25e807220035.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\ea6b4af8-781a-4910-a07d-25e807220035.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\f5def82a-0929-411c-bdb0-1010b9350358.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\f5def82a-0929-411c-bdb0-1010b9350358.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\fd78d0e3-5251-4783-a44c-444cf9b11ea4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\fd78d0e3-5251-4783-a44c-444cf9b11ea4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\fe44ac67-81a4-4a80-9825-be7b714f11ad.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\fe44ac67-81a4-4a80-9825-be7b714f11ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\fe8721bd-97dc-4ae7-82dd-07d87b84f4a9.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\fe8721bd-97dc-4ae7-82dd-07d87b84f4a9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\ffddcfe6-36ff-4890-bb19-824fe367c4a5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\ffddcfe6-36ff-4890-bb19-824fe367c4a5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\imagesPp.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\imagesPp.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\trending\\trending9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\images\\user-avatar.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user-avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-accordian.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-accordian.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-date.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-date.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-nav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-nav.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-navscroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-navscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-particular.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-particular.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-swiper.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-swiper1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-swiper1.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-swiper2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-swiper2.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-swiper3.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-swiper3.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-swiper4.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-swiper4.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\custom-swiper5.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-swiper5.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\dashboard-custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboard-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\jpanelmenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jpanelmenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\map.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\particlerun.js",
+      "PackagePath": "staticwebassets\\assets\\js\\particlerun.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\particles.js",
+      "PackagePath": "staticwebassets\\assets\\js\\particles.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\scss\\_default.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_default.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\scss\\_variable.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_variable.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\scss\\style.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\scss\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TravelFinalProject\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelFinalProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TravelFinalProject.props",
+      "PackagePath": "build\\TravelFinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TravelFinalProject.props",
+      "PackagePath": "buildMultiTargeting\\TravelFinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TravelFinalProject.props",
+      "PackagePath": "buildTransitive\\TravelFinalProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

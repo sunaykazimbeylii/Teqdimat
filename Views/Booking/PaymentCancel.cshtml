@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Payment Cancelled";
+}
+
+<section class="breadcrumb-main pb-0" style="background-image: url(images/bg/bg8.jpg);">
+    <div class="breadcrumb-outer pt-10">
+        <div class="container">
+            <div class="breadcrumb-content d-md-flex align-items-center pt-10">
+                <h2 class="mb-0">Payment Cancelled</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Payment Cancelled</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="dot-overlay"></div>
+</section>
+
+<section class="blog trending destination-b pb-6">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xs-12 mb-4">
+                <div class="payment-book">
+                    <div class="booking-box">
+                        <div class="booking-box-title d-md-flex align-items-center bg-danger p-4 mb-4">
+                            <i class="fa fa-times-circle"></i>
+                            <div class="title-content ml-3">
+                                <h3 class="mb-0 white">Oops! Your payment was cancelled.</h3>
+                                <p class="mb-0 white">You have cancelled the payment process. Your booking is not completed.</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p>If you want to try again, please return to your booking and start the payment process again.</p>
+                            <a href="@Url.Action("Create", "Booking", new { tourId = 0 })" class="nir-btn">Return to Booking</a>
+                            <a href="/" class="nir-btn-black ml-3">Back to Home</a>
+                        </div>
+                        <div class="booking-border d-flex">
+                            <a href="javascript:window.print();" class="nir-btn mr-4"><i class="fa fa-print"></i> Print</a>
+                            <a href="mailto:support@Yatriiworld.com" class="nir-btn-black"><i class="fa fa-envelope-open-text"></i> Contact Support</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

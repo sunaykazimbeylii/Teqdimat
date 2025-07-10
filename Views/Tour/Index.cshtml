@@ -1,0 +1,239 @@
+﻿@using TravelFinalProject.Interfaces
+@using TravelFinalProject.Models
+@using TravelFinalProject.Resources
+@using TravelFinalProject.Utilities.Enums
+@using TravelFinalProject.ViewModels
+@model TourListPageVM
+@inject ICurrencyService CurrencyService
+
+<!-- BreadCrumb Starts -->
+<section class="breadcrumb-main pb-0" style="background-image: url(images/bg/bg8.jpg);">
+    <div class="breadcrumb-outer pt-10">
+        <div class="container">
+            <div class="breadcrumb-content d-md-flex align-items-center pt-10">
+                <h2 class="mb-0">@Labels.TourList</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">@Labels.Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">@Labels.TourList</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="dot-overlay"></div>
+</section>
+<!-- BreadCrumb Ends -->
+<!-- blog starts -->
+<section class="blog destination-b pb-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-xs-12 mb-4">
+                <div class="trend-box">
+                    <div class="list-results d-flex align-items-center justify-content-between">
+                        
+                        <div class="click-menu d-flex align-items-center justify-content-between">
+                            <div class="change-list f-active mr-2"><a href="destination-list.html"><i class="fa fa-bars"></i></a></div>
+                            <div class="change-grid"><a href="destination-grid.html"><i class="fa fa-th"></i></a></div>
+                            <div class="sortby d-flex align-items-center justify-content-between ml-2">
+                                <form asp-action="Index">
+                                    <select name="key" onchange="this.form.submit()" class="niceSelect">
+                                        <option value="1">Sort By</option>
+                                        @foreach (SortType sort in Enum.GetValues(typeof(SortType)))
+                                        {
+                                            <option value="@((int)sort)"> Sort by @sort.ToString()</option>
+                                        }
+                                    </select>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    @foreach (var tour in Model.PaginatedTours.Items)
+                    { 
+                    
+                        <div class="blog-full d-flex justify-content-around mb-4">
+                            <div class="row w-100">
+                                <div class="col-lg-5 col-md-4 col-xs-12 blog-height">
+                                    <div class="blog-image">
+                                        <div class="blog-image">
+                                            <a href="@Url.Action("TourDetail", "Tour", new { id = tour?.Id })"
+                                               style="background-image: url('@Url.Content("~/assets/images/trending/" + (tour.Image ?? "default.jpg"))');">
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-7 col-md-8 col-xs-12">
+                                    <div class="blog-content p-0">
+                                        <h4 class="mb-1">
+                                            <a href="@Url.Action("Details", "Tour", new { id = tour.Id })">@tour.Title</a>
+                                        </h4>
+                                        <div class="trend-tags">
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                        </div>
+                                        <p class="mb-2 pink">
+                                            <i class="fa fa-map-marker mr-1"></i> @tour.Location, @tour.DestinationName
+                                        </p>
+                                        <p class="mb-2 border-t pt-2">
+                                            @((tour.Description != null && tour.Description.Length > 150)
+                                                ? tour.Description.Substring(0, 150) + "..."
+                                                : tour.Description)
+                                        </p>
+                                        <div class="deal-price">
+                                            <p class="price mb-0">
+                                                From <span>@CurrencyService.GetSymbol(tour.CurrencyCode) @tour.Price</span> / @tour.Duration
+                                            </p>
+                                        </div>
+
+                                        <p><strong>Start Date:</strong> @tour.Start_Date.ToString("dd MMM yyyy")</p>
+                                        <p><strong>End Date:</strong> @tour.End_Date.ToString("dd MMM yyyy")</p>
+                                        <p><strong>Available Seats:</strong> @tour.Available_seats</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item @(Model.PaginatedTours.CurrentPage <= 1 ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-page="@(Model.PaginatedTours.CurrentPage - 1)" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            @for (int i = 1; i <= Model.PaginatedTours.TotalPage; i++)
+                            {
+                                <li class="page-item @(Model.PaginatedTours.CurrentPage == i ? "active" : "")">
+                                    <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+                                </li>
+                            }
+                            <li class="page-item @(Model.PaginatedTours.CurrentPage >= Model.PaginatedTours.TotalPage ? "disabled" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-page="@(Model.PaginatedTours.CurrentPage + 1)" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-xs-12 mb-4">
+                <div class="sidebar-sticky">
+                    <div class="sidebar-item mb-4">
+
+                        <form asp-action="Index"  class="form-content">
+                            <h4 class="title white">@Labels.FindAPlaces</h4>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="white">@Labels.TourList</label>
+                                        <div class="input-box">
+                                            <i class="flaticon-placeholder"></i>
+                                            <select name="Destination" class="form-control">
+                                                <option value="">@Labels.Tours</option>
+                                                @foreach (var destination in Model.Destinations)
+                                                { foreach(var t in destination.DestinationTranslations){
+                                                    <option value="@t.Name">@t.Name</option>}
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="white">@Labels.CheckIn</label>
+                                        <div class="input-box">
+                                            <i class="flaticon-calendar"></i>
+                                            <input name="ChekIn" type="date" class="form-control" placeholder="yyyy-mm-dd" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="white">@Labels.CheckOut</label>
+                                        <div class="input-box">
+                                            <i class="flaticon-calendar"></i>
+                                            <input name="CkekOut" type="date" class="form-control" placeholder="yyyy-mm-dd" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="white">@Labels.Adult</label>
+                                        <div class="input-box">
+                                            <i class="flaticon-add-user"></i>
+                                            <select name="Adults" class="form-control">
+                                                <option value="">@Labels.Adult</option>
+                                                @for (int i = 1; i <= 3; i++)
+                                                {
+                                                    <option value="@i">@i</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="white">@Labels.Children</label>
+                                        <div class="input-box">
+                                            <i class="flaticon-add-user"></i>
+                                            <select name="Children" class="form-control">
+                                                <option value="">@Labels.Children</option>
+                                                @for (int i = 1; i <= 3; i++)
+                                                {
+                                                    <option value="@i">@i</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group mb-0">
+                                        <button type="submit" class="nir-btn w-100"><i class="fa fa-search"></i>@Labels.CheckAvailability</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- blog Ends -->
+<!-- Trending Starts -->
+
+@section Scripts {
+    <script>
+        $(function () {
+            $("#price-slider").slider({
+                range: true,
+                min: 0,
+                max: 2000,
+                values: [0, 2000],
+                slide: function (event, ui) {
+                    $("#min-value").text(ui.values[0] + " $");
+                    $("#max-value").text(ui.values[1] + " $");
+                    $("#min_price").val(ui.values[0]);
+                    $("#max_price").val(ui.values[1]);
+                }
+            });
+        });
+    </script>
+}
+<!-- Trending Ends -->

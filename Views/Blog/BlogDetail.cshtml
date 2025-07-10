@@ -1,0 +1,164 @@
+﻿@using TravelFinalProject.ViewModels.BlogVM
+@model BlogDetailVM
+<section class="breadcrumb-main pb-0" style="background-image: url(images/bg/bg8.jpg);">
+    <div class="breadcrumb-outer pt-10">
+        <div class="container">
+            <div class="breadcrumb-content d-md-flex align-items-center pt-10">
+                <h2 class="mb-0">Blog Single Full</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Blog Single Full</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="dot-overlay"></div>
+</section>
+<section class="blog blog-left">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="blog-single">
+                    <div class="blog-imagelist mb-3">
+                        <img src="~/assets/images/blog/@Model.ImageUrl" alt="image">
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <div class="date text-center bg-pink p-2">
+                                <h1 class="day mb-0 white">@Model.PublishedDate.Day</h1>
+                                <div class="month white">@Model.PublishedDate.ToString("MMM")</div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-10">
+                            <div class="blog-content mb-4 pt-0">
+                                <h3 class="blog-title"><a href="blog-single.html" class="yellow">@Model.Title</a></h3>
+                              
+                                <p lass="mb-0">@Model.Comment</p>
+              
+                            </div>
+
+                         
+                        </div>
+                    </div>
+
+                
+
+                    <!-- blog next prev -->
+                    <div class="blog-next mb-4">
+                        <a href="#" class="float-left">
+                            <div class="prev pl-4">
+                                <i class="fa fa-arrow-left white"></i>
+                                <p class="m-0 white">Previous Post</p>
+                                <p class="m-0 white">The bedding was hardly able</p>
+                            </div>
+                        </a>
+                        <a href="#" class="float-right bg-grey">
+                            <div class="next pr-4 text-right">
+                                <i class="fa fa-arrow-right"></i>
+                                <p class="m-0">Previous Post</p>
+                                <p class="m-0">The bedding was hardly able</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- blog comment list -->
+                    <div class="single-comments single-box mb-4">
+                        <h4 class="mb-4">Showing @Model.Reviews?.Count verified guest comment@(Model.Reviews?.Count == 1 ? "" : "s")</h4>
+                        @foreach (var review in Model.Reviews)
+                        {
+                            <div class="comment-box d-flex align-items-start">
+                                <div class="comment-image mt-2">
+                                    <img src="@Url.Content("~/assets/images/trending/" + (review.UserImage ?? "ImagePP.webp"))"
+                                         alt="@review.UserName"
+                                         style="width:50px; height:50px; border-radius:50%; object-fit:cover;" />
+
+                                </div>
+
+                                <div class="comment-content" style="max-width: 500px; width: 100%;">
+                                    <h4 class="mb-1">@review.UserName</h4>
+                                    <p class="comment-date">@review.CreatedAt.ToString("MMMM dd, yyyy 'at' hh:mm tt")</p>
+
+                                    <div class="comment-rate">
+                                        <div class="rating mar-right-15">
+                                            @for (int i = 1; i <= review.Rating; i++)
+                                            {
+                                                if (i <= review.Rating)
+                                                {
+                                                    <span class="fa fa-star checked"></span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="fa fa-star"></span>
+                                                }
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <p class="comment">@review.Comment</p>
+
+                                    <div class="comment-like">
+                                        <div class="like-title float-left">
+                                            <a href="#" class="nir-btn mr-2">Reply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+
+           
+                    <div class="single-add-review">
+                        <h4 class="">Write a Review</h4>
+                        <form asp-action="AddReview" asp-controller="Blog" method="post">
+                            <input type="hidden" name="BlogId" value="@Model.Id" />
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="Comment" class="form-control" placeholder="Comment" rows="5" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label>Reytinq:</label>
+                                    <div class="star-rating">
+                                        <input type="radio" name="Rating" value="5" id="star5" />
+                                        <label for="star5">★</label>
+
+                                        <input type="radio" name="Rating" value="4" id="star4" />
+                                        <label for="star4">★</label>
+
+                                        <input type="radio" name="Rating" value="3" id="star3" />
+                                        <label for="star3">★</label>
+
+                                        <input type="radio" name="Rating" value="2" id="star2" />
+                                        <label for="star2">★</label>
+
+                                        <input type="radio" name="Rating" value="1" id="star1" />
+                                        <label for="star1">★</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 d-flex align-items-end">
+                                    <button type="submit" class="nir-btn">Submit Review</button>
+                                </div>
+                            </div>
+                        </form>
+
+
+                        @section Scripts {
+                            @{
+                                await Html.RenderPartialAsync("_ValidationScriptsPartial");
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

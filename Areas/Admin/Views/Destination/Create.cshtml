@@ -1,0 +1,113 @@
+﻿@using TravelFinalProject.Models
+@model CreateDestinationVM
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="dashboard-content">
+        <div class="add-listing">
+            <div class="listing-main">
+                <div class="addlist-inner mb-3">
+                    <div class="addlist-title">
+                        <h4 class="m-0"><i class="fa fa-user pr-2"></i>Destination Create</h4>
+                    </div>
+                    @Html.Raw(@TempData["FileWarning"])
+                </div>
+                <div class="addlist-content bg-white">
+                    <div class="addlist-content bg-white">
+                        <form method="post" enctype="multipart/form-data">
+
+                            <div class="row">
+                                <div class="col-lg-12 col-md-6 col-xs-12">
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="MainPhoto" class="form-label">Photo</label>
+                                            <input asp-for="MainPhoto" class="form-control" />
+                                            <span asp-validation-for="MainPhoto" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="AdditionalPhotos" class="form-label"> Additional Photos</label>
+                                            <input asp-for="AdditionalPhotos" class="form-control" />
+                                            <span asp-validation-for="AdditionalPhotos" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="CategoryId" class="form-label">Destination</label>
+                                            <select asp-for="CategoryId" class="form-control niceSelect">
+                                                <option selected disabled>Choose Destination</option>
+                                                @foreach (var dc in Model.DestinationCategories)
+                                                {
+                                                    <option value="@dc.DestinationCategoryId">@dc.Name</option>
+                                                        
+                                                }
+                                            </select>
+                                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Name" class="form-label">Name</label>
+                                            <input asp-for="Name" class="form-control" placeholder="Name" />
+                                            <span asp-validation-for="Name" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Address" class="form-label">Address</label>
+                                            <input asp-for="Address" class="form-control" placeholder="Address" />
+                                            <span asp-validation-for="Address" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="City" class="form-label">City</label>
+                                            <input asp-for="City" class="form-control" placeholder="City" />
+                                            <span asp-validation-for="City" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Price" class="form-label">Price</label>
+                                            <input asp-for="Price" class="form-control" placeholder="Price" />
+                                            <span asp-validation-for="Price" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-box">
+                                            <label asp-for="Description" class="form-label">Description</label>
+                                            <input asp-for="Description" class="form-control" placeholder="Description" />
+                                            <span asp-validation-for="Description" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-box">
+                                                <label asp-for="Country" class="form-label">Country</label>
+                                                <input asp-for="Country" class="form-control" placeholder="Country" />
+                                                <span asp-validation-for="Country" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-box">
+                                                <label asp-for="LangCode" class="form-label">LangCode</label>
+                                                <input asp-for="LangCode" class="form-control" placeholder="LangCode" />
+                                                <span asp-validation-for="Country" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Show in Home Page?</label>
+                                            <input asp-for="IsFeatured" type="checkbox" />
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

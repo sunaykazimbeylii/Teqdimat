@@ -1,0 +1,175 @@
+﻿@{
+    Layout = "_Layout2";
+}
+@using TravelFinalProject.Resources
+@using TravelFinalProject.ViewModels.ProfileVM
+@model ProfileVM
+
+<!-- BreadCrumb Starts -->
+<section class="breadcrumb-main pb-2" style="background-image: url(images/bg/bg8.jpg);">
+    <div class="dot-overlay"></div>
+</section>
+<!-- BreadCrumb Ends -->
+<!-- Dashboard -->
+<div id="dashboard" class="pt-10 pb-10">
+    <div class="container">
+        <div class="dashboard-main">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <div class="dashboard-sidebar">
+                        <div class="profile-sec">
+                            <div class="author-news mb-3">
+                                <div class="author-news-content text-center p-3">
+                                    <div class="author-thumb mt-0">
+                                        <img src="~/assets/images/trending/@(string.IsNullOrEmpty(Model.Image) ? "ImagePP.webp" : Model.Image)"  />
+
+                                    </div>
+                                    <div class="author-content pt-2 p-0">
+                                        <h3 class="mb-1 white"><a href="#" class="white">@Model.Name @Model.Surname</a></h3>
+                                        <p class="detail"><i class="fa fa-map-marker"></i>@Model.City </p>
+                                        <p class="detail"><i class="fa fa-phone"></i>@Model.PhoneNumber </p>
+                                        <div class="header-social mt-2">
+                                            <ul>
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dot-overlay"></div>
+                            </div>
+                        </div>
+                        <!-- Responsive Navigation Trigger -->
+                        <a href="#" class="dashboard-responsive-nav-trigger"><i class="fa fa-reorder"></i> Dashboard Navigation</a>
+                        <div class="dashboard-nav">
+                            <div class="dashboard-nav-inner">
+                                <ul>
+                                  
+                                    <li class="active"><a href="dashboard-my-profile.html"><i class="sl sl-icon-user"></i> @Labels.Profile
+                                        </a></li>
+                                    <li><a asp-controller ="Account" asp-action="Logout"><i class="sl sl-icon-power"></i>@Labels.LogOut</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                    <div class="dashboard-content">
+                        <div class="dashboard-form mb-4">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-6 col-xs-12 padding-right-30">
+                                        <div asp-validation-summary="All" class="text-danger"></div>
+                                    <form asp-action="MyProfile" method="post" enctype="multipart/form-data">
+
+                                        <div class="dashboard-list">
+                                            <h4 class="gray">@Labels.Profile</h4>
+                                            <div class="dashboard-list-static">
+
+                                                @Html.AntiForgeryToken()
+
+                                                <!-- Avatar -->
+                                                <div class="edit-profile-photo">
+                                                    <img src="~/assets/images/trending/@(string.IsNullOrEmpty(Model.Image) ? "ImagePP.webp" : Model.Image)"
+                                                         style="max-height:250px; width:150px;" />
+                                                    <div class="change-photo-btn">
+                                                        <div class="photoUpload">
+                                                            <span><i class="fa fa-upload"></i>@Labels.UploadPhoto</span>
+                                                            <input asp-for="Photo" type="file" class="upload" />
+                                                            <span asp-validation-for="Photo" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- Details -->
+                                                <div class="my-profile">
+                                                    <div class="form-group">
+                                                        <label asp-for="Name">@Labels.Name</label>
+                                                        <input asp-for="Name" class="form-control" />
+                                                        <span asp-validation-for="Name" class="text-danger"></span>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label asp-for="Surname">@Labels.Surname</label>
+                                                        <input asp-for="Surname" class="form-control" />
+                                                        <span asp-validation-for="Surname" class="text-danger"></span>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label asp-for="PhoneNumber">@Labels.Phone</label>
+                                                        <input asp-for="PhoneNumber" class="form-control" />
+                                                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label asp-for="Email"></label>
+                                                        <input asp-for="Email" class="form-control" readonly />
+                                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label asp-for="Bio">@Labels.Bio</label>
+                                                        <textarea asp-for="Bio" class="form-control" cols="30" rows="10"></textarea>
+                                                        <span asp-validation-for="Bio" class="text-danger"></span>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label asp-for="City">@Labels.City</label>
+                                                        <input asp-for="City" class="form-control" />
+                                                        <span asp-validation-for="City" class="text-danger"></span>
+                                                    </div>
+
+
+                                                    <div class="form-group">
+                                                        <label asp-for="Country">@Labels.Country</label>
+                                                        <input asp-for="Country" class="form-control" />
+                                                        <span asp-validation-for="Country" class="text-danger"></span>
+                                                    </div>
+                                                    
+                                                        <div class="form-group">
+                                                            <label asp-for="ChangePassword.CurrentPassword">@Labels.CPassword</label>
+                                                            <input asp-for="ChangePassword.CurrentPassword" class="form-control" placeholder="*********" />
+                                                            <span asp-validation-for="ChangePassword.CurrentPassword" class="text-danger"></span>
+                                                        </div>
+                                              
+                                                        <div class="form-group">
+                                                            <label asp-for="ChangePassword.NewPassword">@Labels.NPassword</label>
+                                                            <input asp-for="ChangePassword.NewPassword" class="form-control" />
+                                                            <span asp-validation-for="ChangePassword.NewPassword" class="text-danger"></span>
+                                                        </div>
+                                                  
+                                               
+                                                        <div class="form-group">
+                                                            <label asp-for="ChangePassword.ConfirmPassword">@Labels.ConfirmPassword</label>
+                                                            <input asp-for="ChangePassword.ConfirmPassword" class="form-control" />
+                                                            <span asp-validation-for="ChangePassword.ConfirmPassword" class="text-danger"></span>
+                                                        </div>
+                                                   
+                                                </div>
+
+                                                <div class="form-btn">
+                                                    <button type="submit" class="nir-btn">@Labels.SaveChange</button>
+                                                </div>
+
+                                                @if (ViewBag.StatusMessage != null)
+                                                {
+                                                    <div class="alert alert-success mt-2">@ViewBag.StatusMessage</div>
+                                                }
+
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                      
+                            </div>
+                        </div>
+                     
+                   
+             
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content / End -->
+    </div>
+</div>
+<!-- Dashboard / End -->

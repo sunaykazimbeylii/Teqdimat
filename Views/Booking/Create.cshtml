@@ -1,0 +1,193 @@
+﻿@using Microsoft.Extensions.Options
+@using TravelFinalProject.DAL
+@using TravelFinalProject.Resources
+@using TravelFinalProject.Utilities.Enums
+@using TravelFinalProject.ViewModels
+
+@inject TravelFinalProject.Interfaces.ICurrencyService CurrencyService
+
+  @model BookingVM
+<!-- BreadCrumb Starts -->
+<section class="breadcrumb-main pb-0" style="background-image: url(images/bg/bg8.jpg);">
+    <div class="breadcrumb-outer pt-10">
+        <div class="container">
+            <div class="breadcrumb-content d-md-flex align-items-center pt-10">
+                <h2 class="mb-0">Booking</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Booking</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="dot-overlay"></div>
+</section>
+<!-- BreadCrumb Ends -->
+<!-- blog starts -->
+<section class="blog trending destination-b pb-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-xs-12 mb-4">
+                <div class="payment-book">
+                    <div class="booking-box">
+                        <form action="/booking/create" method="post" onchange="this.form.submit()">
+                            @Html.AntiForgeryToken()
+
+                         @*    @if (!ViewData.ModelState.IsValid)
+                            {
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                        {
+                                            <li>@error.ErrorMessage</li>
+                                        }
+                                    </ul>
+                                </div>
+                            } *@
+
+                            @for (int i = 0; i < Model.Guests.Count; i++)
+                            {
+                                <h3>Traveller Information @(i + 1)</h3>
+                                <div class="traveller-form">
+                                    <label>First Name</label>
+                                    <input type="text" name="Guests[@i].FirstName" value="@Model.Guests[i].FirstName" class="form-control" />
+
+                                    <label>Last Name</label>
+                                    <input type="text" name="Guests[@i].LastName" value="@Model.Guests[i].LastName" class="form-control" />
+
+                                    @if (i == 0)
+                                    {
+                                        <label>Email</label>
+                                        <input type="email" name="Guests[@i].Email" value="@Model.Guests[i].Email" class="form-control" />
+
+                                        <label>Phone Number</label>
+                                        <input type="text" name="Guests[@i].PhoneNumber" value="@Model.Guests[i].PhoneNumber" class="form-control" />
+                                    }
+
+                                    <label>Passport Number</label>
+                                    <input type="text" name="Guests[@i].PassportNumber" value="@Model.Guests[i].PassportNumber" class="form-control" />
+
+                                    <label>Gender</label>
+                                    <select name="Guests[@i].Gender" class="form-control">
+                                    <option disabled selected> Choose Gender </option>
+
+                                        @foreach (var gender in Enum.GetValues(typeof(Gender)))
+                                        {
+                                            <option value="@( (int)gender )"> @gender</option>
+                                        }
+                                    </select>
+
+
+
+
+
+
+                                    <label>Nationality</label>
+                                    <input type="text" name="Guests[@i].Nationality" value="@Model.Guests[i].Nationality" class="form-control" />
+
+                                    <label>Date of Birth</label>
+                                    <input type="date"
+                                           name="Guests[@i].DateOfBirth"
+                                           value="@(Model.Guests[i].DateOfBirth.HasValue ? Model.Guests[i].DateOfBirth.Value.ToString("yyyy-MM-dd") : "")"
+                                           class="form-control" />
+
+                                </div>
+                            }
+
+                            <input type="hidden" name="TourId" value="@Model.TourId" />
+                            <input type="hidden" name="AdultsCount" value="@Model.AdultsCount" />
+                            <input type="hidden" name="ChildrenCount" value="@Model.ChildrenCount" />
+                            <input type="hidden" name="PromoDiscountPercent" value="@Model.PromoDiscountPercent" />
+                            <input type="hidden" name="GuestsCount" value="@Model.Guests.Count" />
+
+                            <button type="submit" class="btn btn-primary" style="margin:20px 0px">@Labels.BookNow</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-xs-12 mb-4">
+                <div class="sidebar-sticky sticky1">
+                    <div class="trend-item mb-4">
+                        <div class="trend-image">
+                            <img src="~/assets/images/trending/@Model.Booking.Tour.TourImages.FirstOrDefault(t=>t.IsPrimary==true).Image" alt="image">
+                        </div>
+                        <div class="trend-content-main">
+                            <div class="trend-content">
+                                <div class="rating-main d-flex align-items-center pb-1">
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <span class="ml-2">38 Reviews</span>
+                                </div>
+                                <h4><a href="#">@Model.Booking.Tour.TourTranslations.FirstOrDefault().Title</a></h4>
+                                <p class="mb-0 pink"><i class="fa fa-eye mr-1"></i> 852 Visiting Places <i class="fa fa-map-marker mr-1 ml-3"></i> @Model.Booking.Tour.Destination.DestinationTranslations.FirstOrDefault().Name</p>
+                            </div>
+                            <div class="trend-last-main">
+                                <p class="mb-0 trend-para">@Model.Booking.Tour.TourTranslations.FirstOrDefault().Description</p>
+                                <div class="trend-last d-flex align-items-center justify-content-between bg-navy">
+                                    <p class="mb-0 white"><i class="fa fa-clock-o" aria-hidden="true"></i>@Model.Booking.Tour.Duration</p>
+                                    <div class="trend-price">
+                                        <p class="price white mb-0">
+                                            From <span>@CurrencyService.GetSymbol(Model.Booking.CurrencyCode)@Model.PricePerAdult.ToString("N2")</span>
+                                        </p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-sidebar">
+                        <div class="sidebar-item">
+                            <h4>Payment</h4>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Price Per Adult</td>
+                                        <td class="pink">@Model.CurrencySymbol  @Model.PricePerAdult.ToString("F2")</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of Adults</td>
+                                        <td class="pink">@Model.AdultsCount</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Price Per Child</td>
+                                        <td class="pink">@Model.CurrencySymbol @Model.PricePerChild.ToString("F2")</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of Children</td>
+                                        <td class="pink">@Model.ChildrenCount</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Subtotal</td>
+                                        <td class="pink">@Model.CurrencySymbol @Model.Subtotal.ToString("F2")</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Discount</td>
+                                        <td class="pink">-@Model.CurrencySymbol @Model.DiscountAmount.ToString("F2")</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Total</strong></td>
+                                        <td class="pink"><strong>@Model.CurrencySymbol @Model.Total.ToString("F2")</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- blog Ends -->

@@ -1,0 +1,95 @@
+﻿body {
+    background-color: #f4f6f9;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.review-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.review-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+    .review-card h4 {
+        text-align: center;
+        font-size: 28px;
+        color: #007bff;
+        margin-bottom: 24px;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .form-group textarea {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        resize: vertical;
+        min-height: 100px;
+    }
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+    .star-rating input[type="radio"] {
+        display: none;
+    }
+
+    .star-rating label {
+        font-size: 28px;
+        color: lightgray;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+        .star-rating input:checked ~ label,
+        .star-rating label:hover,
+        .star-rating label:hover ~ label {
+            color: gold;
+        }
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #f56961;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(245, 105, 97, 0.4);
+    margin-top: 10px;
+}
+
+    .submit-btn:hover {
+        background: linear-gradient(90deg, #e74c3c, #c0392b);
+    }
